@@ -1,5 +1,5 @@
 function checkForSpam(message) {
-    return message.toLowerCase().includes("spam") || message.toLowerCase().includes("sale") ? true : false;
+    return message.toLowerCase().includes("spam") || message.toLowerCase().includes("sale");
 }
 
 console.log(" \n\nTask-3\n ");
